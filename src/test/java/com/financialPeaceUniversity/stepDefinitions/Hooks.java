@@ -14,7 +14,7 @@ public class Hooks {
     @Before()
     public void setUp() {
         System.out.println("UI test is running:");
-        Driver.getDriver().get(Environment.HOME_PAGE_URL);
+        Driver.getDriver().get(Environment.FPU_PAGE_URL);
     }
 
     @After()

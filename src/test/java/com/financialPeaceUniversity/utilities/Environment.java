@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class Environment {
 
-    public static final String HOME_PAGE_URL;
+    public static final String FPU_PAGE_URL;
     public static final String USER_EMAIL;
     public static final String USER_PASSWORD;
 
@@ -25,7 +25,7 @@ public class Environment {
             e.printStackTrace();
         }
 
-        HOME_PAGE_URL = properties.getProperty("homePageUrl");
+        FPU_PAGE_URL = properties.getProperty("financialPeaceUniversityUrl");
         USER_EMAIL = properties.getProperty("userEmail");
         USER_PASSWORD = properties.getProperty("userPassword");
     }
