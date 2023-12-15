@@ -6,9 +6,9 @@ import java.util.Properties;
 
 public class Environment {
 
-    private static final String HOME_PAGE_URL;
-    private static final String USER_EMAIL;
-    private static final String USER_PASSWORD;
+    public static final String HOME_PAGE_URL;
+    public static final String USER_EMAIL;
+    public static final String USER_PASSWORD;
 
     static {
 
@@ -28,8 +28,6 @@ public class Environment {
         HOME_PAGE_URL = properties.getProperty("homePageUrl");
         USER_EMAIL = properties.getProperty("userEmail");
         USER_PASSWORD = properties.getProperty("userPassword");
-
     }
-
 
 }
