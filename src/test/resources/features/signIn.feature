@@ -65,7 +65,7 @@ Feature: Sign In feature
       | gocesdet@gmail.com | U          | We weren't able to sign you in.  Double-check your email and password, or sign in with SSO. |
       | gocesdet@gmail.com | UserU      | We weren't able to sign you in.  Double-check your email and password, or sign in with SSO. |
       | gocesdet@gmail.com | UserUser@  | We weren't able to sign you in.  Double-check your email and password, or sign in with SSO. |
-      | gocesdet@gmail.com | UserUser@1 | We weren't able to sign you in.  Double-check your email and password, or sign in with SSO. |
+      | gocesdet@gmail.com | UserUser@11 | We weren't able to sign you in.  Double-check your email and password, or sign in with SSO. |
 
 
   Scenario Outline: Verify user can NOT successfully sign in by entering invalid email and valid password
